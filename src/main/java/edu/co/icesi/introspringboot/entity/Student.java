@@ -22,6 +22,10 @@ public class Student {
     @JsonIgnore
     private List<Enrollment> studentCourses;
 
+    @OneToMany(mappedBy = "student")
+    @JsonIgnore
+    private List<Submission> submissions;
+
     public Student() {}
 
     public Integer getId() { return id; }
@@ -34,4 +38,6 @@ public class Student {
     public void setProgram(String program) { this.program = program; }
     public List<Enrollment> getStudentCourses() { return studentCourses; }
     public void setStudentCourses(List<Enrollment> studentCourses) { this.studentCourses = studentCourses; }
+    public List<Submission> getSubmissions() { return submissions; }
+    public void setSubmissions(List<Submission> submissions) { this.submissions = submissions; }
 }

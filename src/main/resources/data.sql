@@ -177,3 +177,117 @@ INSERT INTO course (name, credits, professor_id) VALUES ('Macroeconomia', 3, 10)
 INSERT INTO course (name, credits, professor_id) VALUES ('Economia Internacional', 3, 10);
 INSERT INTO course (name, credits, professor_id) VALUES ('Finanzas Corporativas', 4, 10);
 INSERT INTO course (name, credits, professor_id) VALUES ('Contabilidad General', 3, 10);
+
+-- ─── SUBMISSIONS (100 registros) ─────────────────────────────────────────────
+-- Formato exam_day: YYYY-MM-DD (LocalDate → DATE)
+-- Formato submitted_at: YYYY-MM-DD HH:MM:SS (LocalDateTime → TIMESTAMP)
+
+-- Laura (id=1) — 20 entregas
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Programacion',            '2025-04-10', '2025-04-09 22:15:00', 4.5, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Proyecto Final de Estructuras',      '2025-06-05', '2025-06-04 18:00:00', 3.8, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Algoritmos',               '2025-03-15', '2025-03-14 20:30:00', 4.2, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Base de Datos',              '2025-04-22', '2025-04-21 19:00:00', 3.5, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Redes',                   '2025-05-08', '2025-05-07 23:00:00', 4.0, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Laboratorio de Algoritmos',          '2025-03-28', '2025-03-27 16:45:00', 4.8, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen Final de Programacion',       '2025-06-20', '2025-06-19 21:00:00', 4.6, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Redes',                    '2025-05-20', '2025-05-19 18:30:00', 3.9, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Algoritmos',                 '2025-02-14', '2025-02-13 22:00:00', 4.3, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Estructuras de Datos',    '2025-03-05', '2025-03-04 20:00:00', 4.1, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Proyecto de Base de Datos',          '2025-07-01', '2025-06-30 17:00:00', 4.7, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Programacion Avanzada',    '2025-04-03', '2025-04-02 23:30:00', 3.6, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Estructuras',                '2025-02-28', '2025-02-27 19:45:00', 4.0, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen de Redes Avanzadas',          '2025-06-12', '2025-06-11 20:15:00', 3.7, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Base de Datos II',        '2025-05-30', '2025-05-29 22:45:00', 4.4, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Algoritmos II',            '2025-04-17', '2025-04-16 21:00:00', 3.8, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Programacion',               '2025-03-20', '2025-03-20 08:10:00', 2.9, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Laboratorio de Redes',               '2025-05-10', '2025-05-09 18:00:00', 4.5, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen Corte 2 de Programacion',     '2025-04-30', '2025-04-29 23:59:00', 3.3, 1);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Trabajo Final de Redes',             '2025-07-10', '2025-07-08 15:00:00', 4.9, 1);
+
+-- Pedro (id=2) — 20 entregas
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Programacion',            '2025-04-10', '2025-04-11 08:30:00', 2.9, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Algoritmos',               '2025-03-15', '2025-03-16 09:00:00', 2.5, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Base de Datos',              '2025-04-22', '2025-04-22 11:00:00', 3.1, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Redes',                   '2025-05-08', '2025-05-08 10:00:00', 3.0, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen Final de Programacion',       '2025-06-20', '2025-06-20 09:15:00', 2.7, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Programacion',             '2025-02-20', '2025-02-19 22:00:00', 3.4, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Algoritmos',                 '2025-02-14', '2025-02-14 07:50:00', 2.8, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Estructuras de Datos',    '2025-03-05', '2025-03-06 08:00:00', 2.6, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Proyecto de Programacion',           '2025-05-25', '2025-05-24 20:00:00', 3.6, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Base de Datos',            '2025-04-05', '2025-04-05 08:30:00', 3.2, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen de Estructuras',              '2025-03-22', '2025-03-22 09:45:00', 2.4, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Redes',                      '2025-05-15', '2025-05-16 07:30:00', 2.3, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Algoritmos',              '2025-04-18', '2025-04-18 10:20:00', 3.0, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Laboratorio de Programacion',        '2025-03-10', '2025-03-11 08:00:00', 2.9, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Trabajo de Redes',                   '2025-06-05', '2025-06-05 10:00:00', 3.5, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Base de Datos II',           '2025-05-22', '2025-05-23 09:00:00', 2.7, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Algoritmos II',            '2025-04-25', '2025-04-25 08:45:00', 3.3, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen Corte 1 de Programacion',     '2025-02-27', '2025-02-28 07:55:00', 2.8, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Proyecto Final de Estructuras',      '2025-06-05', '2025-06-06 11:00:00', 2.5, 2);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen Final de Base de Datos',      '2025-07-03', '2025-07-04 09:30:00', 2.6, 2);
+
+-- Andres (id=3) — 20 entregas
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Corte de Anatomia Humana',           '2025-03-20', '2025-03-19 20:00:00', 5.0, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Fisiologia',              '2025-05-15', '2025-05-14 23:45:00', 4.1, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen de Bioquimica',               '2025-04-08', '2025-04-07 21:30:00', 4.6, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Farmacologia',             '2025-05-28', '2025-05-27 19:00:00', 4.3, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Patologia',                  '2025-06-10', '2025-06-09 22:00:00', 4.8, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Laboratorio de Anatomia',            '2025-03-05', '2025-03-04 18:30:00', 5.0, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Bioquimica',              '2025-02-20', '2025-02-19 20:45:00', 4.4, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen Final de Fisiologia',         '2025-06-25', '2025-06-24 21:00:00', 4.7, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Anatomia II',              '2025-04-15', '2025-04-14 17:00:00', 4.9, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Farmacologia',               '2025-05-05', '2025-05-04 23:30:00', 4.2, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Corte 2 de Anatomia',                '2025-05-10', '2025-05-09 19:45:00', 4.6, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Trabajo de Patologia',               '2025-06-18', '2025-06-17 20:00:00', 4.5, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen de Fisiologia Celular',       '2025-04-25', '2025-04-24 22:15:00', 4.0, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Bioquimica II',              '2025-03-12', '2025-03-11 21:00:00', 4.3, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Patologia',               '2025-05-22', '2025-05-21 18:30:00', 4.7, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Laboratorio de Bioquimica',          '2025-04-02', '2025-04-01 20:00:00', 4.8, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Fisiologia II',            '2025-06-03', '2025-06-02 19:30:00', 4.1, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen Final de Bioquimica',         '2025-07-05', '2025-07-04 21:00:00', 4.9, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Anatomia Funcional',         '2025-02-15', '2025-02-14 22:45:00', 4.5, 3);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Proyecto de Investigacion Medica',   '2025-07-15', '2025-07-13 16:00:00', 5.0, 3);
+
+-- Sofia (id=4) — 20 entregas
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen de Derecho Penal',            '2025-04-25', '2025-04-24 17:30:00', 3.5, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Trabajo de Historia del Arte',       '2025-06-20', '2025-06-18 10:00:00', 4.8, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Derecho Civil',           '2025-03-18', '2025-03-17 19:00:00', 3.9, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Derecho Constitucional',     '2025-04-10', '2025-04-09 21:30:00', 4.1, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen de Derecho Laboral',          '2025-05-12', '2025-05-11 20:00:00', 3.7, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Historia del Arte II',     '2025-05-28', '2025-05-27 18:00:00', 4.5, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Derecho Internacional',   '2025-04-17', '2025-04-16 22:00:00', 3.4, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Derecho Penal II',           '2025-05-05', '2025-05-04 20:45:00', 3.8, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen Final de Derecho Civil',      '2025-06-25', '2025-06-24 19:30:00', 4.2, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Trabajo de Arte Moderno',            '2025-07-08', '2025-07-06 14:00:00', 4.7, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Historia Universal',      '2025-03-28', '2025-03-27 21:15:00', 3.6, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Derecho Penal',            '2025-02-22', '2025-02-21 20:00:00', 3.3, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Historia del Arte',          '2025-03-08', '2025-03-07 19:30:00', 4.4, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen de Derecho Constitucional',   '2025-05-20', '2025-05-19 22:30:00', 3.9, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Laboratorio de Jurisprudencia',      '2025-04-03', '2025-04-02 18:45:00', 3.5, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Proyecto de Derecho Laboral',        '2025-06-10', '2025-06-09 17:00:00', 4.0, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Derecho Internacional',      '2025-05-30', '2025-06-01 09:00:00', 2.8, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Filosofia del Derecho',    '2025-04-22', '2025-04-21 23:00:00', 4.1, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen Final de Derecho Penal',      '2025-07-02', '2025-07-01 20:00:00', 3.6, 4);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Trabajo de Arte Contemporaneo',      '2025-07-18', '2025-07-17 15:30:00', 4.6, 4);
+
+-- Camila (id=5) — 20 entregas
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Corte de Anatomia Humana',           '2025-03-20', '2025-03-20 07:55:00', 3.2, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Fisiologia',              '2025-05-15', '2025-05-14 21:30:00', 3.7, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen de Bioquimica',               '2025-04-08', '2025-04-07 23:00:00', 3.4, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Farmacologia',             '2025-05-28', '2025-05-27 20:00:00', 3.9, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Patologia',                  '2025-06-10', '2025-06-09 19:45:00', 3.5, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Laboratorio de Anatomia',            '2025-03-05', '2025-03-04 22:00:00', 3.0, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Bioquimica',              '2025-02-20', '2025-02-19 21:30:00', 3.6, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen Final de Fisiologia',         '2025-06-25', '2025-06-24 20:00:00', 3.8, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Anatomia II',              '2025-04-15', '2025-04-14 19:15:00', 3.3, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Farmacologia',               '2025-05-05', '2025-05-05 08:00:00', 2.9, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Corte 2 de Anatomia',                '2025-05-10', '2025-05-09 22:30:00', 3.2, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Trabajo de Patologia',               '2025-06-18', '2025-06-17 18:45:00', 3.7, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen de Fisiologia Celular',       '2025-04-25', '2025-04-24 20:00:00', 3.4, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Bioquimica II',              '2025-03-12', '2025-03-11 23:00:00', 3.1, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Parcial de Patologia',               '2025-05-22', '2025-05-21 21:30:00', 3.5, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Laboratorio de Bioquimica',          '2025-04-02', '2025-04-01 22:15:00', 3.8, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Taller de Fisiologia II',            '2025-06-03', '2025-06-02 21:00:00', 3.0, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Examen Final de Bioquimica',         '2025-07-05', '2025-07-05 09:10:00', 2.8, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Quiz de Anatomia Funcional',         '2025-02-15', '2025-02-14 20:00:00', 3.6, 5);
+INSERT INTO submission (topic, exam_day, submitted_at, grade, student_id) VALUES ('Proyecto de Ciencias de la Salud',   '2025-07-15', '2025-07-14 17:00:00', 3.9, 5);
